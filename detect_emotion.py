@@ -10,8 +10,6 @@ import numpy as np
 from PIL import Image
 
 # retrieve environment variables
-ENDPOINT = os.environ["VISION_TRAINING_ENDPOINT"]
-training_key = os.environ["VISION_TRAINING_KEY"]
 prediction_key = os.environ["VISION_PREDICTION_KEY"]
 prediction_resource_id = os.environ["VISION_PREDICTION_RESOURCE_ID"]
 prediction_os_endpoint = os.environ["VISION_PREDICTION_ENDPOINT"]
